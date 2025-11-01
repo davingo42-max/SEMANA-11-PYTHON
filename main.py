@@ -52,14 +52,14 @@ class Granja:
 
 def mostrar_menu():
     print("\n--- Sistema de Gestión Avícola ---")
-    print("1. CRUD Pollo: Crear nuevo pollo (CREATE)")
-    print("2. CRUD Pollo: Ver información de un pollo (READ)")
-    print("3. CRUD Pollo: Ver todos los pollos (READ ALL)")
-    print("4. CRUD Pollo: Actualizar datos de un pollo (UPDATE)")
-    print("5. CRUD Pollo: Eliminar pollo (DELETE)")
+    print("1. CRUD Pollo: Crear nuevo pollo")
+    print("2. CRUD Pollo: Ver información de un pollo")
+    print("3. CRUD Pollo: Ver todos los pollos")
+    print("4. CRUD Pollo: Actualizar datos de un pollo")
+    print("5. CRUD Pollo: Eliminar pollo")
     print("---------------------------------")
-    print("6. CRUD Huevos: Registrar/Actualizar producción (CREATE/UPDATE)")
-    print("7. CRUD Huevos: Consultar producción semanal (READ)")
+    print("6. CRUD Huevos: Registrar/Actualizar producción")
+    print("7. CRUD Huevos: Consultar producción semanal")
     print("---------------------------------")
     print("0. Salir")
     return input("Elige una opción: ")
@@ -171,4 +171,5 @@ def main():
                 print("Opción no válida. Por favor, elige un número del menú.")
 
 if __name__ == "__main__":
+
     main()
